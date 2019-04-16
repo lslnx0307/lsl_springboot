@@ -23,6 +23,6 @@ public class MyWebConfig extends WebMvcConfigurerAdapter {
         //拦截器中的注册类
         InterceptorRegistration interceptorRegistration = registry.addInterceptor(myInteceptor);
         //excludePathPatterns 哪些路径不走过滤器
-        interceptorRegistration.excludePathPatterns("/home");
+//        interceptorRegistration.excludePathPatterns("/home");
     }
 }
